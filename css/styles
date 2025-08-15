@@ -1,0 +1,245 @@
+.alice-regular {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style:normal;
+}
+
+img {
+    width:100px;
+    height:100px;
+}
+
+.nav-link:link{
+    font-family:"Alice", serif;
+    color: #0f5138;
+    font-size: 25px;
+}
+
+.nav-link:hover{
+    color:#000000;
+}
+
+nav{
+    background-color:#7e9764;
+}
+footer, p , h5{
+    font-family:"Alice", serif;
+    color: #0f5138;
+    font-size: 15px; 
+}
+footer{
+    background-color:lightgray;
+    height: 50%;
+
+}
+.bi{
+    color:#0f5138;
+    font-size:25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+#image1{
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#header1{
+    font-family:"Alice", serif;
+    color: #000000;
+    font-size: 35px; 
+    margin-top:50px;
+   
+}
+
+#text1{
+    font-family: "Quicksand", sans-serif;
+  font-size: 20px;
+  color: #000000;
+  font-style: normal;
+  margin-bottom:50px;
+}
+#image2{
+    height:400px;
+    width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+
+}
+#image3{
+    height:400px;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+}
+#image4{
+    height:400px;
+    width: auto;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 20px;
+}
+.background-section{
+    background-image: url('../images/background-gradient.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+    
+}
+.card-title{
+    font-family:"Alice", serif;
+    color: #0f5138;
+    font-size: 20px; 
+    
+}
+.card-text{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    color: #0f5138;
+    font-style: normal;
+    
+}
+.card-img-top{
+ height:70%;
+ width:70%;
+ object-fit: contain;
+ margin-left:auto;
+ margin-right: auto;
+}
+#contact{
+    font-family:"Alice", serif;
+    color: #000000;
+    font-size: 35px; 
+    margin-left: 90px;
+    margin-top:20px;
+}
+#contact-p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    color: #000000;
+    font-style: normal;
+    margin-left:100px;
+}
+.background{
+    background-image: url('../images/background-gradient.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+
+}
+#head{
+    font-family:"Alice", serif;
+    color: #000000;
+    font-size: 35px; 
+    margin-top:20px;
+}
+#subtext{
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-style: normal;
+    
+}
+form{
+    font-family: "Quicksand", sans-serif;
+    font-size: 19px;
+    color: #000000;
+    font-style: normal;
+    margin-left: 25px;
+}
+
+    
+.jumbotron{
+    background-image: url('../images/background-image.png');
+    background-repeat: no-repeat;
+    width:900px;
+    height:300px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom:50px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#s1{
+    font-family:"Alice", serif;
+    color: #000000;
+    font-size: 35px; 
+    display:flex;
+   justify-content: center;
+   
+    
+}
+#s2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-style: normal;
+   display:flex;
+   justify-content: center;
+   
+  
+ 
+}
+li{
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-style: normal; 
+}
+#about-image{
+    height:100%;
+    width:65%;
+}
+#about-h{
+    margin-top:150px;
+    font-family:"Alice", serif;
+    color: #000000;
+    font-size: 35px;  
+}
+#about-p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 15px;
+    color: #000000;
+    font-style: normal; 
+}
+#head , #subtext{
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width:992px){
+    .jumbotron{
+        background-image: url('../images/background-image2.png');
+        background-repeat: no-repeat;
+        height:100px;
+        width:400px;
+    }
+    #about-image{
+        margin-top:25px;
+        height:95%;
+        width:100%;
+    }
+    #about-h{
+        margin-top:10px;
+    }
+    #about-p{
+        margin-bottom:35px;
+    }
+}
+
